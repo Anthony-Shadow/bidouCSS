@@ -1,0 +1,16 @@
+.bouton {
+    background-color: orange;/* je met un font orange*/
+    font-size: 20px;/*taille de la police*/
+    color: black;/*couleur du texte*/
+    text-decoration: none;/*retire la ligne*/
+    border-radius: 10px;/* taille bordu*/
+    padding: 10px 90px ; /*marche interieur bloc */
+   
+   
+    border: 4px solid rgb(151, 21, 21);
+}
+
+
+.centtre{
+    text-align: center; /*centre le texte*/
+}
