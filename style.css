@@ -1,3 +1,17 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Honk&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Rubik+Beastly&family=Rubik+Wet+Paint&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Honk&family=Rubik+Beastly&family=Rubik+Wet+Paint&display=swap');
+
+.police{
+    font-family: "Honk", system-ui;
+    zoom: 5;
+}
+
+
+  
+  
+
+
 .bouton {
     background-color: orange;/* je met un font orange*/
     font-size: 20px;/*taille de la police*/
@@ -14,3 +28,142 @@
 .centtre{
     text-align: center; /*centre le texte*/
 }
+
+
+.section {
+    background-color: pink;
+    height: 100vh;
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    
+}
+.couleurpurple {
+    background-color: purple;
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+    
+}
+
+.colorj {
+    background-color: rgb(255, 255, 0);
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+    
+}
+.colorgreen {
+    background-color: rgb(37, 232, 7);
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+    
+}
+
+.ext14{
+    border-radius: 20px;
+}
+.ext23 {
+    border-radius: 30px 100px / 12px;
+}
+
+
+
+
+
+
+
+
+
+.boutonblock{
+    display: block;
+    width: fit-content;
+    margin-bottom: 12px;
+    text-decoration: none;
+    padding: 16px 32px;
+    /*background-color: red;*/
+}
+
+
+
+.interBold {
+    font-family: "Inter", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 22px;
+    color: black;
+}
+
+
+
+.interRegular {
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+    color:white
+}
+
+.bordersolid {
+    border: 1px solid black;
+}
+
+.borderpoint{
+    border: 5px dashed black;
+}
+
+.greenn{
+    background-color:#61FF7B ;
+}
+
+.greecl{
+    background-color: #1398A0;
+}
+.bordurarrondi{
+    border-radius: 32px
+}
+.bordurd{
+    border-radius: 32px  0px;
+}
+.bordury{
+    border-radius: 8px;
+    
+}
+
+
+.carte {
+    border: 1px ridge rgb(255, 255, 255);
+  background-color: rgb(255, 255, 255);
+  padding: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  width: 20%;
+  height: auto;
+  box-shadow: 5px 5px 5px rgb(59, 58, 58);
+}
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.parent {
+    display: flex;
+}
+
+.child1{
+    display: flex;
+}
+
+.child2{
+    box-flex: 20px;
+}
+.section {
+    display: flex;
+    flex: 200px;
+  }
+  
