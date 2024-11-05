@@ -115,6 +115,7 @@
 
 .greenn{
     background-color:#61FF7B ;
+    
 }
 
 .greecl{
@@ -133,37 +134,35 @@
 
 
 .carte {
-    border: 1px ridge rgb(255, 255, 255);
-  background-color: rgb(255, 255, 255);
-  padding: 0.5rem;
+    
   display: flex;
-  flex-direction: column;
-  width: 20%;
-  height: auto;
-  box-shadow: 5px 5px 5px rgb(59, 58, 58);
+  width: 300px;
+    box-shadow: 4px 4px 12px #00000025; 
+    border-radius: 16px;
+    padding: 8px;
 }
 
-
-
+.card img{
+    display: block;
+    width: 100%;
+}
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-.parent {
-    display: flex;
-}
 
-.child1{
+.section2 {
     display: flex;
-}
-
-.child2{
-    box-flex: 20px;
-}
-.section {
-    display: flex;
-    flex: 200px;
+    flex: 20px;
+    align-content: center;
+    align-items: center;
+    width: 999px;
+    height: 888px;
+    justify-content: center;
+    flex-grow: 1;
+    justify-content: space-between;
   }
   
+ 
