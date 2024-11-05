@@ -134,18 +134,18 @@
 
 
 .carte {
-    
+    border: 1px ridge rgb(255, 255, 255);
+  background-color: rgb(255, 255, 255);
+  padding: 0.5rem;
   display: flex;
-  width: 300px;
-    box-shadow: 4px 4px 12px #00000025; 
-    border-radius: 16px;
-    padding: 8px;
+  flex-direction: column;
+  width: 20%;
+  height: auto;
+  box-shadow: 5px 5px 5px rgb(59, 58, 58);
+  
 }
 
-.card img{
-    display: block;
-    width: 100%;
-}
+
 *{
     margin: 0;
     padding: 0;
@@ -162,7 +162,71 @@
     height: 888px;
     justify-content: center;
     flex-grow: 1;
-    justify-content: space-between;
+    justify-items: center;
   }
   
+
+
+
+
+
+.color {
+    background-color: blue;
+    width: 400px;
+    height: 200px;
+    
+}
+
+.Sectionflex {
+    display: flex;
+    justify-content: center;
+    gap: 33px;
+    flex-wrap: wrap;
+    background: 800%;
+    align-items: center;
+}
+
+
+
+
+
+.card{
+    width: 300px;
+    height: auto;
+    box-shadow: 4px 4px 12px #00000025; 
+    border-radius: 16px;
+    padding: 8px;
+   
+}
+
+.card img{
+    display: block;
+    width: 100%;
+}
+.card .bouton{
+   margin-bottom: 0;
+}
+
+
+.divcar{
+display: flex;
+flex: 20px;
+align-content: center;
+align-items: center;
+width: 999px;
+height: 888px;
+flex-grow: 1;
+justify-content: space-evenly;
+justify-content: space-between;
+}
+
+.flex{
+    display: flex;
+}
+
+.divcard{
+    justify-content: space-evenly;
+    flex: 20px;
+
+}
  
